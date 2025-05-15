@@ -23,3 +23,5 @@ These records help future contributors understand why the current structure exis
 
 
 > To add a new ADR, create a Markdown file under `docs/adr/` and register it in this table.
+| 0005 | Debug Mode Design and Trigger Policy         | Accepted | 2025-05-15 |
+| 0006 | Separation of Configuration and Localization Files | Accepted | 2025-05-15 |

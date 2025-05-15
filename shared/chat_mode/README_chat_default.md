@@ -6,7 +6,7 @@ This file provides default mode instructions for ChatGPT to facilitate skill ass
 
 This mode provides the **standard facilitator behavior** for skill assessment sessions using ChatGPT.
 
-## 🧭 Purpose
+## 📍 Purpose
 
 In Default Mode, ChatGPT acts as a virtual facilitator guiding a human participant through:
 
@@ -16,7 +16,7 @@ In Default Mode, ChatGPT acts as a virtual facilitator guiding a human participa
 
 ---
 
-## 🛠 Assets for This Mode
+## 🛠️ Assets for This Mode
 
 ### Facilitator Prompt
 
@@ -35,29 +35,29 @@ Use the following instruction to load the facilitator’s default behavior:
 
 ---
 
-## 🎯 Role-Specific Content
+## ⚙️ Configuration Files
 
-ChatGPT must also load assets specific to the selected role.  
-For Product Owner (PO), the default product and team are:
+This mode uses the following configuration files to define assets and instructions:
 
-| Asset                | File                                      |
-|----------------------|-------------------------------------------|
-| Product Brief        | [`roles/po/product_briefs/calendar_dashboard.md`](../../roles/po/product_briefs/calendar_dashboard.md) |
-| Character Settings   | [`roles/po/collaborative_team.md`](../../roles/po/collaborative_team.md) |
-| Evaluation Criteria  | [`roles/po/evaluation_criteria.md`](../../roles/po/evaluation_criteria.md) |
+- [`config/po.yaml`](../../config/po.yaml): Asset mapping and prompt definitions for the Product Owner role
+- [`config/lang/jp.yaml`](../../config/lang/jp.yaml): Language-specific messages and labels (Japanese)
 
-> Additional roles may follow a similar pattern under `roles/{role}/`
+These files define which product brief, team, and prompts to use.
 
 ---
 
-## 🔁 Triggers and Flow
+## 🤮 Debug Mode
 
-The facilitator should use trigger keywords to manage phase transitions.  
-A list of these triggers is provided within each prompt file.
+If you're encountering issues or want to enable diagnostic features (such as meta output or flexible behavior), type:
 
----
+```
+!debug
+```
 
-## ✅ Summary
+This will switch the assistant to Debug Mode by loading:
+[`README_chat_debug.md`](README_chat_debug.md)
 
-Default Mode enables a complete skill assessment experience with structured phases and a standardized tone.  
-This file links all required materials to execute the session reliably and consistently.
+> 🕹 Secret: You can also type `↑↑↓↓←→←→BA` as a hidden shortcut.
+
+🔧 **Note:** Debug Mode can be activated at any time. However, depending on the current session state, not all previous data may be structured for debugging.  
+It is recommended to switch modes early in the session or during non-critical phases like onboarding.
