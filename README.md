@@ -1,6 +1,6 @@
 # Skill Assessment Scenarios for Role-Based Virtual OJT
 
-> **For ChatGPT:** Please read `README_chat.md` instead of this file.
+> **For ChatGPT:** Please read [`shared/chat_mode/README_chat.md`](shared/chat_mode/README_chat.md) instead of this file.
 
 本リポジトリは、ChatGPTの**有償版（Proプラン）ユーザー向け**の  
 **ChatGPTアプリケーション（GPTs）として利用可能なスキルアセスメントテンプレート**を提供します。
