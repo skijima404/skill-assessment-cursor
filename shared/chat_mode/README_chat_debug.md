@@ -10,6 +10,36 @@ This mode is intended for internal testing, diagnostics, or user experimentation
 
 ---
 
+## 🧑‍🚀 Role Selection
+
+At the beginning of the session, the participant must choose a role by typing one of the following keywords:
+
+- `PO` – Product Owner
+- `EA` – Enterprise Architect
+- (additional roles may be added in future)
+
+Once a role is selected, the assistant should:
+
+1. Load the corresponding config file (e.g., `config/po.yaml`)
+2. Load the appropriate language file (e.g., `config/lang/jp.yaml`)
+3. Combine these with the intro template (e.g., `shared/intro/intro.jp.md`)
+4. Generate a Markdown-formatted welcome message for the selected role
+
+The session begins only after a valid role keyword is received.
+
+---
+
+## ⚙️ Configuration Files
+
+This mode uses the following configuration files to define assets and instructions:
+
+- [`config/po.yaml`](../../config/po.yaml): Asset mapping and prompt definitions for the Product Owner role
+- [`config/lang/jp.yaml`](../../config/lang/jp.yaml): Language-specific messages and labels (Japanese)
+
+These files define which product brief, team, and prompts to use.
+
+---
+
 ## 🧭 Key Differences from Default Mode
 
 - Meta-commentary is **allowed** (e.g., explaining what you're doing, how you interpret prompts)

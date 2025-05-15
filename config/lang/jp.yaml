@@ -1,3 +1,11 @@
-role_key: po
-role_name: プロダクトオーナー（PO）
-role_play_description: オンボーディングの瞬間や、開発チーム・ステークホルダーとのやり取りを通じて、状況に応じた判断
+trigger:
+  role_end: "ロールプレイが終了しました。"
+  reflection_start: "フィードバックをお願いします。"
+  reflection_end: "質問はありません。"
+
+session:
+  duration: "15〜30分"
+  phases: "導入 → ロールプレイ → 振り返り"
+  goal: "スキルの仮想体験と、強み・課題の可視化"
+  evaluation: "チャットログと行動観察に基づく定性評価"
+  

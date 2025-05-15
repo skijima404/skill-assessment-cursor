@@ -61,3 +61,21 @@ This will switch the assistant to Debug Mode by loading:
 
 🔧 **Note:** Debug Mode can be activated at any time. However, depending on the current session state, not all previous data may be structured for debugging.  
 It is recommended to switch modes early in the session or during non-critical phases like onboarding.
+---
+
+## 🧑‍🚀 Role Selection
+
+At the beginning of the session, the participant must choose a role by typing one of the following keywords:
+
+- `PO` – Product Owner
+- `EA` – Enterprise Architect
+- (additional roles may be added in future)
+
+Once a role is selected, the assistant should:
+
+1. Load the corresponding config file (e.g., `config/po.yaml`)
+2. Load the appropriate language file (e.g., `config/lang/jp.yaml`)
+3. Combine these with the intro template (e.g., `shared/intro/intro.jp.md`)
+4. Generate a Markdown-formatted welcome message for the selected role
+
+The session begins only after a valid role keyword is received.

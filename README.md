@@ -21,7 +21,11 @@
 1. このリポジトリのURLを **ChatGPT（Pro）に貼り付けてください**
 
 ```
-https://github.com/skijima404/skill-assessment
+こんにちは、POアセスメントを始めたいです。以下のリポジトリを使用します。
+
+https://github.com/your-org/skill-assessment
+
+PO
 ```
 
 2. ChatGPTから「どのロールを選びますか？」と聞かれたら、以下のいずれかを入力してください：
@@ -41,18 +45,14 @@ https://github.com/skijima404/skill-assessment
 以下のプロンプトを **ChatGPT（Proプラン）にコピー＆ペースト**してください：
 
 ```plaintext
-このリポジトリを使ってアセスメントを開始してください（ChatGPTアプリ向け）。
-使用するリポジトリのURLはこちらです：
+このリポジトリを使ってPOアセスメントを開始します。
 
 https://github.com/skijima404/skill-assessment
+
+PO
 ```
 
-ChatGPTがロールを尋ねてきたら、以下のいずれかを入力してください：
-	•	PO
-	•	EA
-	•	SA
-
-その後はChatGPTが進め方を案内してくれます。
+※ChatGPTがアセスメントの説明を始めたら、そのまま案内に従って進めてください。
 
 ---
 
