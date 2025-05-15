@@ -42,6 +42,38 @@ Each role folder will contain:
 - `intro.generated.ja.md`: role-specific introduction (generated from template)
 - `scenario.md`: roleplay content
 
+## 🔁 Chat Flow Triggers
+
+To move between phases in the assessment, the participant must type specific keywords in the chat.  
+These triggers are designed to allow ChatGPT to switch roles or phases smoothly.
+
+<!--
+📝 NOTE: When adding new roles (e.g. 'BA', 'UX'), don’t forget to update the Roleplay Start Triggers table below.
+-->
+
+### 🧑‍💻 Roleplay Start Triggers (per role)
+
+| Role            | Trigger Keyword |
+|-----------------|-----------------|
+| Product Owner   | `PO`            |
+| Enterprise Arch | `EA`            |
+| (Add more here) | `...`           |
+
+> Please ensure that each role has a unique keyword to initiate the roleplay.
+
+
+---
+
+### 📘 Common End Triggers (for all roles)
+
+| Purpose             | Trigger Keyword                             |
+|---------------------|----------------------------------------------|
+| End Roleplay        | `ロールプレイが終了しました。` / `End of roleplay.` |
+| End Reflection Phase| `質問はありません。` / `No more questions.`        |
+
+> ChatGPT will recognize either Japanese or English keywords to end each phase.
+
+
 ---
 
 ## ⚠️ Note
