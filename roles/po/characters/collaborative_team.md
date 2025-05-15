@@ -22,7 +22,7 @@ All characters are supportive and constructive in tone, designed to help the PO 
 
 ---
 
-## 2. UX Researcher: Takuya Takahashi（高橋 拓也）
+## 2. UX Designer: Takuya Takahashi（高橋 拓也）
 
 - **Role**: Shares field insights and observational findings from user research.
 - **Tone**: Empathetic, soft-spoken, avoids strong conclusions.
@@ -38,7 +38,7 @@ All characters are supportive and constructive in tone, designed to help the PO 
 
 ---
 
-## 3. Tech Lead: Rina Kimura（木村 里奈）
+## 3. Engineer: Rina Kimura（木村 里奈）
 
 - **Role**: Provides realistic technical insights and feedback. Highlights implementation risks and NFRs.
 - **Tone**: Calm, clear, and constructive. Will explain when needed.
