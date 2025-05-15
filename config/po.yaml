@@ -3,6 +3,11 @@
 role: po
 title: Product Owner
 
+# Language configuration
+language_files:
+  - shared/config/lang/jp.yaml
+  - roles/po/config/lang/jp.yaml
+
 # Product and team settings used during the roleplay
 product_brief: roles/po/product_briefs/calendar_dashboard.md
 team_profile: roles/po/characters/collaborative_team.md
@@ -16,4 +21,3 @@ prompts:
   reflection: shared/prompt_reflection.md
   roleplay:
     facilitator: roles/po/prompts/default/facilitator_prompt.md
-
