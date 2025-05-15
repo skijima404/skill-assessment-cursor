@@ -42,13 +42,17 @@ Do not override these constraints unless Debug Mode is active.
 
 ## 🔁 Trigger Words and Transitions
 
+The following trigger keywords control phase transitions and load the corresponding prompt.
+
 You must wait for specific trigger keywords to proceed between phases.
 
 | Phase          | Trigger Keyword   |
 | -------------- | ----------------- |
 | Start Roleplay | `PO`, `EA`, etc.  |
+|                | → Load: roles/po/prompt_roleplay.md (if role is PO)
 | End Roleplay   | `ロールプレイが終了しました。`  |
 | Start Feedback | `フィードバックをお願いします。` |
+|                | → Load: shared/prompt_reflection.md
 | End Reflection | `質問はありません。`       |
 
 Wait patiently for these inputs before advancing. Do not guess or proceed early.
