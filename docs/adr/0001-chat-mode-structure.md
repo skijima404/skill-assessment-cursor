@@ -1,9 +1,7 @@
 # ADR-0001: Chat Mode Structure and Prompt Organization
 
-## Status
-Accepted
-## Date
-2025-05-15
+**Status:** Accepted  
+**Date:** 2025-05-15
 
 ## Context
 

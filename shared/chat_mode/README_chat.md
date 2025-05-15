@@ -1,38 +1,51 @@
-# Chat Flow Triggers for Roleplay-Based Assessments
+<!--
+This file is intended to be used by ChatGPT to guide role-based assessment behavior.
+It serves as the entry point to load various operation modes.
+-->
 
-To move between phases in the skill assessment, the participant must type specific keywords in the chat.  
-These triggers are designed to allow ChatGPT to switch roles or phases smoothly and predictably.
+# Skill Assessment - ChatGPT Instruction Router
 
----
+Welcome to the Skill Assessment Repository.
 
-## 🧑‍💻 Roleplay Start Triggers (per role)
-
-| Role            | Trigger Keyword |
-|-----------------|-----------------|
-| Product Owner   | `PO`            |
-| Enterprise Arch | `EA`            |
-| (Add more here) | `...`           |
-
-> Each role must define a unique keyword to begin the scenario.
+This file acts as the **entry point** for ChatGPT.  
+It helps the assistant determine which **role** and **mode** to operate in before loading specific instructions.
 
 ---
 
-## 📘 Common Phase Triggers (for all roles)
+## 🧭 Step 1: Choose a Role
 
-| Purpose               | Trigger Keyword                                |
-|------------------------|-----------------------------------------------|
-| End Roleplay           | `ロールプレイが終了しました。` / `End of roleplay.` |
-| Start Reflection       | `フィードバックをお願いします。` / `Please give me feedback.` |
-| End Reflection Phase   | `質問はありません。` / `No more questions.`         |
+Supported roles:
 
-> ChatGPT accepts either Japanese or English forms of the trigger.  
-> Feedback will **not begin automatically** — participants must explicitly request it.
+- [Product Owner (PO)](../../roles/po/README.md)
+- [Enterprise Architect (EA)](../../roles/ea/README.md) ← *Coming soon*
 
 ---
 
-## ✅ Notes
+## 🛠 Step 2: Choose a Mode
 
-- These keywords must be typed **exactly**, without modification or additional comments.
-- Participants should be informed of these triggers before the session begins.
-- For ChatGPT’s behavior regarding these triggers, see:  
-  `prompts/default/facilitator_prompt.md → Ending the Roleplay`
+Each mode defines how the assistant should behave (tone, restrictions, formatting, etc.).
+
+| Mode       | Description                              |
+|------------|------------------------------------------|
+| [Default](README_chat_default.md) | Standard facilitator behavior for roleplay |
+| [Debug](README_chat_debug.md)     | Debugging mode with relaxed constraints |
+| [Reflection](README_chat_reflection.md) | Post-assessment feedback and Q&A (TBD) |
+
+---
+
+## 🔁 How to use
+
+To begin, ChatGPT should load this file and then follow the selected mode’s instruction file.  
+Each mode will guide the assistant through the required:
+
+- Facilitator prompt
+- Phase-specific instructions (intro, roleplay, reflection)
+- Assets to reference (e.g., scenario, evaluation criteria)
+
+---
+
+## 📌 Note
+
+This file should be loaded by ChatGPT prior to any specific instruction file.  
+It ensures proper mode setup and consistent behavior across sessions.
+
