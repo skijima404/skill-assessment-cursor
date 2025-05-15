@@ -18,10 +18,10 @@ These records help future contributors understand why the current structure exis
 |-------|------------------------------------------------|----------|------------|
 | 0001  | Chat Mode Structure and Prompt Organization    | Accepted | 2025-05-15 |
 | 0002  | Role Folder Guidelines    | Accepted | 2025-05-15 |
-| 0003  | Placement of Phase-Specific Prompts (Intro and Reflection) | 2025-05-15 |
-| 0004  | Separation of Application-Level and Phase-Specific Prompts | 2025-05-15 |
+| 0003  | Placement of Phase-Specific Prompts (Intro and Reflection)  | Accepted | 2025-05-15 |
+| 0004  | Separation of Application-Level and Phase-Specific Prompts  | Accepted | 2025-05-15 |
+| 0005  | Debug Mode Design and Trigger Policy  | Accepted | 2025-05-15 |
+| 0006  | Separation of Configuration and Localization Files  | Accepted | 2025-05-15 |
 
 
 > To add a new ADR, create a Markdown file under `docs/adr/` and register it in this table.
-| 0005 | Debug Mode Design and Trigger Policy         | Accepted | 2025-05-15 |
-| 0006 | Separation of Configuration and Localization Files | Accepted | 2025-05-15 |
