@@ -6,7 +6,7 @@ It serves as the entry point to load various operation modes.
 # 📄 README_chat.md
 
 This repository provides a **skill assessment template** designed for use as a **ChatGPT application (GPTs)**  
-by users on the **ChatGPT Pro plan (GPT-4o or higher)**.
+by users on the **ChatGPT Plus plan (GPT-4o or higher)**.
 
 The assessment is delivered in a **virtual OJT format**, simulating role-based decision-making and communication  
 through structured interactions with ChatGPT.

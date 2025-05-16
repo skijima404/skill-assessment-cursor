@@ -2,7 +2,7 @@
 
 > **For ChatGPT:** Please read [`README_chat.md`](./shared/chat_landing/README_chat.md) instead of this file.
 
-本リポジトリは、ChatGPTの**有償版（Proプラン）ユーザー向け**の  
+本リポジトリは、ChatGPTの**有償版（Plusプラン）ユーザー向け**の  
 **ChatGPTアプリケーション（GPTs）として利用可能なスキルアセスメントテンプレート**を提供します。
 
 このアセスメントは、バーチャルOJT形式で実施され、ChatGPTとの対話を通じてロール別の判断力・対応力を測定・学習します。
