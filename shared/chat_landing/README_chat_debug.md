@@ -8,6 +8,26 @@ Welcome to Debug Mode.
 
 This mode is intended for internal testing, diagnostics, or user experimentation. It relaxes certain constraints and enables additional behaviors to assist with development or troubleshooting.
 
+<!-- テスト後消す -->
+
+## 🧪 File Load Check (Debug Mode)
+
+Before proceeding, please make sure the following file is loaded and parsed correctly:
+
+- [Team Profile](https://raw.githubusercontent.com/skijima404/skill-assessment/main/roles/po/characters/collaborative_team.md)
+
+👉 Please **load and output the contents of this file** now to confirm successful loading.
+You may type:
+
+```
+Please show me the contents of the team profile file.
+```
+
+Once the contents are shown and confirmed, you may proceed with the `PO` command as usual.
+
+
+<!-- ここまで -->
+
 ---
 
 ## 🧑‍🚀 Role Selection
