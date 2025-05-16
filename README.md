@@ -1,6 +1,6 @@
 # Skill Assessment Scenarios for Role-Based Virtual OJT
 
-> **For ChatGPT:** Please read [`README_chat.md`](./shared/chat_landing/README_chat.md) instead of this file.
+> **For ChatGPT: Please read [README_chat.md](https://raw.githubusercontent.com/skijima404/skill-assessment/refs/heads/main/shared/chat_landing/README_chat.md) instead of this file.
 
 This repository provides ChatGPT-ready skill assessment templates for virtual OJT (On-the-Job Training) by role.
 
