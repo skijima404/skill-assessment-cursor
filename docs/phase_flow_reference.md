@@ -21,16 +21,14 @@ This document summarizes the **phase flow** of the PO skill assessment and the *
 ```plaintext
 README.md
   ↓
-shared/chat_mode/README_chat.md
+shared/chat_landing/README_chat.md
   ↓
-shared/chat_mode/README_chat_default.md
-  ↓
-shared/facilitator_prompt.md
-config/po.yaml
-  └─ phases.introduction.prompt: shared/prompt_intro.md
-  └─ language_files:
-        - shared/config/lang/jp.yaml
-        - roles/po/config/lang/jp.yaml
+shared/router/role_router.md
+  ├─ if PO:
+       - Load: config/po.yaml
+       - Load: shared/config/lang/jp.yaml
+       - Load: roles/po/config/lang/jp.yaml
+       - Load: shared/prompts/prompt_intro.md
 ```
 
 ---
@@ -42,7 +40,8 @@ config/po.yaml
   ↓
 config/po.yaml
   └─ phases.roleplay.prompt:
-       roles/po/prompt_roleplay.md
+       shared/prompts/prompt_roleplay.md
+         └─ Generates: shared/prompts/prompt_report_generation.md
 ```
 
 ---
@@ -54,7 +53,7 @@ config/po.yaml
   ↓
 config/po.yaml
   └─ phases.reflection.prompt:
-       shared/prompt_reflection.md
+       shared/prompts/prompt_reflection.md
          └─ References: shared/report_template.md
 ```
 
@@ -76,13 +75,20 @@ config/po.yaml
 config/
 ├── po.yaml                          # Phase prompts & role configuration
 shared/
-├── chat_mode/
-│   ├── README_chat.md              # Mode router
-│   ├── README_chat_default.md      # Default mode definition
+├── chat_landing/
+│   ├── README_chat.md              # Main ChatGPT entry point
+│   ├── README_chat_default.md      # Default mode description
+│   ├── README_chat_debug.md        # Debug mode description
 ├── config/
 │   └── lang/jp.yaml                # Shared Japanese trigger phrases
-├── prompt_intro.md                 # Introduction prompt
-├── prompt_reflection.md            # Reflection phase prompt
+├── prompts/
+│   ├── prompt_intro.md             # Introduction prompt
+│   ├── prompt_roleplay.md          # Roleplay phase prompt
+│   ├── prompt_reflection.md        # Reflection phase prompt
+│   ├── prompt_report_generation.md # Report generation logic
+│   └── facilitator_prompt.md       # Global assistant behavior policy
+├── roleplay_safety.md              # Guardrails and early exit conditions
+├── router/
+│   └── role_router.md              # Role and mode routing logic
 ├── report_template.md              # Markdown feedback report template
-├── facilitator_prompt.md           # Global assistant behavior p
 ```
