@@ -78,5 +78,7 @@ PO
 - **トレーナー**: 人間の支援者（研修担当・教育者・フィードバック提供者）です。
 
 ---
+Built with the help of AssistA, our tireless virtual facilitator.
+---
 
 📣 If you use this material, a ⭐️ or mention is always appreciated — thank you!

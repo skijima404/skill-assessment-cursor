@@ -1,5 +1,13 @@
 # Scenario: Calendar Dashboard – Sprint Kickoff
 
+> ⚠️ Note:
+> - This scenario file is written in English for clarity and structural consistency.
+> - The **language of actual roleplay should match the participant's language**, as detected from the chat input (e.g., Japanese).
+> - Characters are defined by their **role names** in this file (e.g., Product Owner, Scrum Master).
+>   At runtime, use the **character names and role suffixes** from `characters/collaborative_team.md`, such as:
+>     `Ken Ito (Scrum Master): ...`
+>     `Yuka Suzuki (Sponsor): ...`
+
 ## Scope
 
 This scenario consists of a **single roleplay session** covering:
