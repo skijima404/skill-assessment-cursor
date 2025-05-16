@@ -18,7 +18,7 @@ To produce a clear and structured report that summarizes the participant’s act
 
 Please generate a markdown-formatted report using the structure defined in `shared/report_template.md`.
 
-### Key Requirements:
+### A. Report Formatting & Output Conditions
 
 1. **Follow the section structure strictly**:
    - Overview
@@ -27,6 +27,17 @@ Please generate a markdown-formatted report using the structure defined in `shar
    - Strengths Observed
    - Areas for Improvement
    - Suggested Next Steps
+   - Supporting Log Highlights (Optional)
+
+2. **Output the entire report in clean, valid Markdown.**
+
+3. Output the report in English. Only participant quotes may remain in the original language.
+
+### B. Content Requirements
+
+1. Refer to `../roles/po/evaluation_criteria.md` and for each criterion:
+   - Indicate the assessed level (e.g., Lv3, Lv4) **in section 3. Evaluation Summary of the template**
+   - Provide a rationale based on observed participant behavior during the session
 
 2. **In “Strengths Observed” and “Areas for Improvement” sections**:
    - Include **direct quotes or paraphrased excerpts** from the chat interaction  
@@ -37,7 +48,7 @@ Please generate a markdown-formatted report using the structure defined in `shar
      - “Could have asked...”
      - “Clarification was needed at this point...”
 
-3. **Output the entire report in clean, valid Markdown.**
+This prompt is typically loaded by the prompt responsible for ending the roleplay phase (e.g., prompt_roleplay.md). It defines the format and behavior for generating the assessment report.
 
 ---
 
@@ -61,7 +72,7 @@ Please generate a markdown-formatted report using the structure defined in `shar
 
 ## 📁 Related Files
 
-- `shared/report_template.md` – Defines the report structure
-- `shared/evaluation_criteria.md` – Behavioral indicators and assessment points
+- `./report_template.md` – Defines the report structure
+- `../roles/po/evaluation_criteria.md` – Behavioral indicators and assessment points
 
 ---

@@ -86,21 +86,6 @@ You may interpret or expand it within the following boundaries:
 
 ---
 
-### Evaluation Report Generation
-
-When generating the evaluation report using `../../../shared/report_template.md`, adhere to the following rules:
-
-- **Output Language**:  
-  Generate the report in English to ensure consistent interpretation in the reflection phase.  
-  Only the participant’s quotes (if included) should remain in their original language (e.g., Japanese).
-
-- **Evaluation Criteria**:  
-  Refer to `../evaluation_criteria.md` and for each criterion:  
-  - Indicate the assessed level (e.g., Lv3, Lv4) **in section 3. Evaluation Summary of the template**  
-  - Provide a rationale based on observed participant behavior during the session
-
----
-
 ## ♻️ State Reset / Overrides
 
 Reset the meeting state at the start of each session.  
@@ -114,6 +99,7 @@ Do not break character or provide meta commentary during the session.
 - Product brief: `../../product_briefs/calendar_dashboard.md`  
 - Character definitions: `../../characters/collaborative_team.md`  
 - Parent prompts: `../../../shared/facilitator_prompt.md`, `../../../shared/roleplay_safety.md`
+- Report generation logic: `../../../shared/prompt_report_generation.md`
 
 ---
 
@@ -125,7 +111,7 @@ When the participant types:
 ロールプレイが終了しました。
 ```
 
-→ End the roleplay. Output the evaluation report using `../../../shared/report_template.md` as a Markdown message to the participant.
+→ End the roleplay. Load `../../../shared/prompt_report_generation.md` and follow its instructions to generate the evaluation report.
 
 Do not provide feedback or engage in Q&A within this session.
 

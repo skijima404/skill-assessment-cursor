@@ -27,6 +27,8 @@ These records help future contributors understand why the current structure exis
 | 0009  | Session State Reset Strategy  | Accepted | 2025-05-16 |
 | 0010  | Separate Session Strategy for Reflection Phase  | Accepted | 2025-05-16 |
 | 0011  | Trigger-Based Reflection Activation via ChatGPT Session Reset  | Accepted | 2025-05-16 |
+| 0012  | Treating Report Generation as a Resettable Closure Phase
+ | Rejected | 2025-05-16 |
 
 
 > To add a new ADR, create a Markdown file under `docs/adr/` and register it in this table.
