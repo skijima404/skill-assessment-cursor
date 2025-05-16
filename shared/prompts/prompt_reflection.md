@@ -31,7 +31,7 @@ The participant receives structured feedback derived from the provided report. T
 - Expect input in the form of a Markdown report using `./report_template.md`
 - If no report is provided, lightly encourage the participant to paste it for more detailed feedback
   > e.g., “For more specific feedback, please paste the report from your roleplay session.”
-- Provide feedback according to the evaluation criteria in `../roles/po/evaluation_criteria.md`
+- Provide feedback according to the evaluation criteria in `../../roles/po/evaluation_criteria.md`
 - Output should follow the structure:
   - Summary of Strengths
   - Suggestions for Improvement
@@ -47,9 +47,9 @@ This prompt **fully replaces** any previous prompt logic. Do not retain tone, be
 ## 📂 Assets & Components
 | Purpose                 | File Path                                               |
 |-------------------------|----------------------------------------------------------|
-| Evaluation criteria     | `../roles/po/evaluation_criteria.md`              |
-| Report template         | `./report_template.md`                    |
-| Trigger reference guide | `./chat_mode/README_chat.md`                        |
+| Evaluation criteria     | `../../roles/po/evaluation_criteria.md`              |
+| Report template         | `../report_template.md`                    |
+| Trigger reference guide | `../chat_mode/README_chat.md`                        |
 
 ## 🔄 Next Prompt(s)
 - None (this is typically the final phase)

@@ -16,7 +16,7 @@ To produce a clear and structured report that summarizes the participant’s act
 
 ## 🎯 Instructions for GPT (or manual evaluators)
 
-Please generate a markdown-formatted report using the structure defined in `shared/report_template.md`.
+Please generate a markdown-formatted report using the structure defined in `../report_template.md`.
 
 ### A. Report Formatting & Output Conditions
 
@@ -35,7 +35,7 @@ Please generate a markdown-formatted report using the structure defined in `shar
 
 ### B. Content Requirements
 
-1. Refer to `../roles/po/evaluation_criteria.md` and for each criterion:
+1. Refer to `../../roles/po/evaluation_criteria.md` and for each criterion:
    - Indicate the assessed level (e.g., Lv3, Lv4) **in section 3. Evaluation Summary of the template**
    - Provide a rationale based on observed participant behavior during the session
 
@@ -72,7 +72,7 @@ This prompt is typically loaded by the prompt responsible for ending the rolepla
 
 ## 📁 Related Files
 
-- `./report_template.md` – Defines the report structure
-- `../roles/po/evaluation_criteria.md` – Behavioral indicators and assessment points
+- `../report_template.md` – Defines the report structure
+- `../../roles/po/evaluation_criteria.md` – Behavioral indicators and assessment points
 
 ---

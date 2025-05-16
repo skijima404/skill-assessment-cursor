@@ -12,8 +12,8 @@ This router determines which role and configuration should be loaded based on th
 - Redirecting to an appropriate entry prompt
 
 ## 🧭 Parent Prompt(s)
-- `../../shared/facilitator_prompt.md`
-- `../../shared/roleplay_safety.md`
+- `../prompts/facilitator_prompt.md`
+- `../prompts/roleplay_safety.md`
 
 ## 🎯 Expected End State
 The correct role or mode is initialized with associated configuration and intro prompt loaded. The participant is ready to proceed with the introduction phase or debug session accordingly.
@@ -25,12 +25,12 @@ When the user provides one of the following triggers at the start of the session
 ### ▶️ `PO`
 - Load role configuration: `../../config/po.yaml`
 - Load language configuration:
-  - Shared: `../../shared/config/lang/jp.yaml`
-  - Role-specific: `../../roles/po/config/lang/jp.yaml`
-- Load introduction prompt: `../../shared/prompts/prompt_intro.md`
+  - Shared: `../../config/lang/jp.yaml`
+  - Role-specific: `../roles/po/config/lang/jp.yaml`
+- Load introduction prompt: `../prompts/prompt_intro.md`
 
 ### 🧪 `!debug` or `↑↑↓↓←→←→BA`
-- Load: `../../shared/chat_landing/README_chat_debug.md`
+- Load: `../chat_landing/README_chat_debug.md`
 - Do **not** load any role-specific config or prompt
 
 ### ❓ Unrecognized Input
@@ -44,11 +44,19 @@ This router is intended to be used **only at the start of the session**. Do not 
 | Purpose                  | File Path                                  |
 |--------------------------|---------------------------------------------|
 | PO role config           | `../../config/po.yaml`                      |
-| Japanese labels (shared) | `../../shared/config/lang/jp.yaml`         |
+| Japanese labels (shared) | `../../config/lang/jp.yaml`         |
 | Japanese labels (role)   | `../../roles/po/config/lang/jp.yaml`       |
-| PO intro prompt          | `../../shared/prompts/prompt_intro.md`     |
-| Debug mode landing       | `../../shared/chat_landing/README_chat_debug.md` |
-| Role safety policy       | `../../shared/roleplay_safety.md`          |
+| PO intro prompt          | `../prompts/prompt_intro.md`     |
+| Debug mode landing       | `../chat_landing/README_chat_debug.md` |
+| Role safety policy       | `../prompts/roleplay_safety.md`          |
+
+## 🔄 Next Prompt(s)
+
+- After routing is complete, control is passed to either of:
+  - `../prompts/prompt_intro.md` (for role-based assessment onboarding)
+  - `../chat_landing/README_chat_debug.md` (for debug mode)
+
+These prompts initialize the introduction or diagnostics phases respectively.
 
 ## ❌ Guardrails / NG Behaviors
 - Do not reroute after a role has been selected

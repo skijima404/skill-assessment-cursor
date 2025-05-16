@@ -111,7 +111,7 @@ When the participant types:
 ロールプレイが終了しました。
 ```
 
-→ End the roleplay. Load `../../../shared/prompt_report_generation.md` and follow its instructions to generate the evaluation report.
+→ End the roleplay. Load `../../../../shared/prompt_report_generation.md` and follow its instructions to generate the evaluation report.
 
 Do not provide feedback or engage in Q&A within this session.
 
@@ -127,7 +127,7 @@ After generating the report, instruct the participant to:
 
 This will activate the reflection mode defined in `prompt_reflection.md`.
 
-> 🔗 See `../../../shared/README_chat.md` for the full list of chat triggers.
+> 🔗 See `../../../../shared/chat_landing/README_chat.md` for the full list of chat triggers.
 
 For now, the reflection prompt is optimized for use with the summary report. Full session log evaluation may be supported in future updates.
 
@@ -146,6 +146,6 @@ Only speak in character and let the participant respond naturally. You may promp
 
 Please follow the safety policies and optional stability guardrails defined in:
 
-`../../../shared/roleplay_safety.md`
+`../../../../shared/roleplay_safety.md`
 
 These rules apply to all roleplay-based assessments unless explicitly overridden.

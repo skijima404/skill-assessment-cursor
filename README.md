@@ -1,6 +1,6 @@
 # Skill Assessment Scenarios for Role-Based Virtual OJT
 
-> **For ChatGPT:** Please read [`shared/chat_mode/README_chat.md`](shared/chat_mode/README_chat.md) instead of this file.
+> **For ChatGPT:** Please read [`README_chat.md`](./shared/chat_landing/README_chat.md) instead of this file.
 
 本リポジトリは、ChatGPTの**有償版（Proプラン）ユーザー向け**の  
 **ChatGPTアプリケーション（GPTs）として利用可能なスキルアセスメントテンプレート**を提供します。
@@ -64,7 +64,7 @@ PO
 |--------------------|----------------------------------------------|
 | ロールプレイ開始   | `PO`                                         |
 | ロールプレイ終了   | `ロールプレイが終了しました。`                |
-| フィードバック開始 | `フィードバックをお願いします。` / `Please give me feedback.` |
+| フィードバック開始 | `フィードバックをお願いします。`  |
 | 振り返り終了       | `質問はありません。`                          |
 
 > 各トリガーは明示的に入力する必要があります。  
@@ -78,7 +78,9 @@ PO
 - **トレーナー**: 人間の支援者（研修担当・教育者・フィードバック提供者）です。
 
 ---
+
 Built with the help of AssistA, our tireless virtual facilitator.
+
 ---
 
 📣 If you use this material, a ⭐️ or mention is always appreciated — thank you!

@@ -3,49 +3,26 @@ This file is intended to be used by ChatGPT to guide role-based assessment behav
 It serves as the entry point to load various operation modes.
 -->
 
-# Skill Assessment - ChatGPT Instruction Router
+# 📄 README_chat.md
 
-Welcome to the Skill Assessment Repository.
+This repository provides a **skill assessment template** designed for use as a **ChatGPT application (GPTs)**  
+by users on the **ChatGPT Pro plan (GPT-4o or higher)**.
 
-This file acts as the **entry point** for ChatGPT.  
-It helps the assistant determine which **role** and **mode** to operate in before loading specific instructions.
+The assessment is delivered in a **virtual OJT format**, simulating role-based decision-making and communication  
+through structured interactions with ChatGPT.
 
----
+## 🧭 Session Flow
 
-## 🧭 Step 1: Choose a Role
+This application proceeds through three phases:
+- Introduction
+- Roleplay
+- Reflection
 
-Supported roles:
+To begin the routing process, please load:
+→ `../router/role_router.md`
 
-- [Product Owner (PO)](../../roles/po/README.md)
-- [Enterprise Architect (EA)](../../roles/ea/README.md) ← *Coming soon*
+For debug mode testing, you may optionally visit:
+→ `./README_chat_debug.md`
 
----
-
-## 🛠 Step 2: Choose a Mode
-
-Each mode defines how the assistant should behave (tone, restrictions, formatting, etc.).
-
-| Mode       | Description                              |
-|------------|------------------------------------------|
-| [Default](README_chat_default.md) | Standard facilitator behavior for roleplay |
-| [Debug](README_chat_debug.md)     | Debugging mode with relaxed constraints |
-| [Reflection](README_chat_reflection.md) | Post-assessment feedback and Q&A (TBD) |
-
----
-
-## 🔁 How to use
-
-To begin, ChatGPT should load this file and then follow the selected mode’s instruction file.  
-Each mode will guide the assistant through the required:
-
-- Facilitator prompt
-- Phase-specific instructions (intro, roleplay, reflection)
-- Assets to reference (e.g., scenario, evaluation criteria)
-
----
-
-## 📌 Note
-
-This file should be loaded by ChatGPT prior to any specific instruction file.  
-It ensures proper mode setup and consistent behavior across sessions.
-
+*This file is designed as the landing entry for ChatGPT.  
+Human users should start from `README.md` at the repository root.*
