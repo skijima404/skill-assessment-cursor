@@ -32,7 +32,7 @@ These records help future contributors understand why the current structure exis
 | 0013  | Split Routing and Prompt Files; Redefine Chat Entry Structure  | Accepted | 2025-05-16 |
 | 0014  | Use Absolute Raw URLs Instead of Relative Paths for ChatGPT Access  | Accepted | 2025-05-16 |
 | 0015  | Smart Strict Mode and Resource-Level Load Policies  | Accepted | 2025-05-17 |
-
+| 0016  | Scale Down to MVP and Branch Off Extended Architecture  | Accepted | 2025-05-17 |
 
 
 > To add a new ADR, create a Markdown file under `docs/adr/` and register it in this table.
