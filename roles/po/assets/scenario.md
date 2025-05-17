@@ -1,14 +1,4 @@
-# Scenario: Calendar Dashboard – Sprint Kickoff
-
-> ⚠️ Note:
-> - This scenario file is written in English for clarity and structural consistency.
-> - The **language of actual roleplay should match the participant's language**, as detected from the chat input (e.g., Japanese).
-> - Characters are defined by their **role names** in this file (e.g., Product Owner, Scrum Master).
->   At runtime, use the **character names and role suffixes** from `characters/collaborative_team.md`, such as:
->     `Ken Ito (Scrum Master): ...`
->     `Yuka Suzuki (Sponsor): ...`
-
-## Scope
+### Scope
 
 This scenario consists of a **single roleplay session** covering:
 
@@ -20,23 +10,7 @@ All of these take place within one continuous meeting, initiated by the Business
 
 ---
 
-## Characters Involved
-
-The following roles participate in this scenario:
-
-* **Product Owner (PO)** – played by the participant
-* **Sponsor** – business-side executive stakeholder (opens the session)
-* **Scrum Master (SM)** – facilitator of the session
-* **Engineer** – handles technical implementation (frontend/backend combined)
-* **UX Designer** – brings in user perspective and feedback
-
-> **Note:** Specific names, genders, or personalities of characters should follow `characters/collaborative_team.md`.
-> Variations in name or tone are allowed per session, but consistency must be maintained throughout a single session.
-> **The roles themselves must match exactly.**
-
----
-
-## Opening Context
+### Opening Context
 
 The Product Owner is joining the project team formally for the first time in this meeting.
 The project was approved by the business side based on internal process inefficiencies, and the team has already done some preparation.
@@ -52,11 +26,12 @@ The **Scrum Master** then facilitates the transition to the PO:
 > *"As this is your first time joining the team, we understand you're still catching up on the overall context and background of the project.
 > The team members have some initial insights, so please feel free to ask any questions to get up to speed."*
 
-→ This allows the PO to begin in **listening mode**, gathering context before gradually introducing hypotheses and direction.
+→ This allows the PO to begin in **listening mode**, gathering context before gradually introducing hypotheses and proposing priorities.  
+The PO is expected to actively clarify user pain points and business priorities by the end of the session.
 
 ---
 
-## Phase Structure
+### Phase Structure
 
 * **Phase 1 – Onboarding**
 
@@ -71,5 +46,6 @@ The **Scrum Master** then facilitates the transition to the PO:
 
 * **Phase 3 – Sprint Planning**
 
-  * Led by PO
-  * Prioritization of first sprint candidates with team input
+  * Led by PO  
+  * The PO proposes initial priorities based on team input and observed business goals  
+  * The team discusses feasibility and alignment

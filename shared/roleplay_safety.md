@@ -1,24 +1,9 @@
-# 🛡️ Roleplay Safety & Guardrails
-
 This document defines safety policies and behavioral boundaries for all role-based assessments.  
 It ensures participant protection and stable, fair behavior from the AI facilitator.
 
 ---
 
-## 📝 Summary
-
-These safety rules apply globally across all assessment roles and phases unless explicitly overridden.  
-They support fairness, psychological safety, and roleplay stability.
-
-## 🎯 Scope
-
-- Applies to: All roleplay prompts
-- Enforced by: ChatGPT facilitator
-- Overridable: Only in debug mode or specialized roles
-
----
-
-## ❌ Early Termination Conditions
+### ❌ Early Termination Conditions
 
 Immediately terminate the roleplay session if the participant:
 
@@ -37,18 +22,12 @@ Do not continue the roleplay. Do not switch to informal or out-of-character inte
 
 ---
 
-## 🧱 Optional Guardrails (ChatGPT-specific stability)
+### 🧱 Optional Guardrails (ChatGPT-specific stability)
 
 These optional guidelines are strongly recommended to maintain clarity, prevent confusion, and preserve the realism of the roleplay session.
 
-* ❌ **Do not modify character personalities at the participant's request**  
-  (e.g., “Make Rina more aggressive,” “Remove Takuya”)
-
 * ❌ **Do not allow restart requests mid-session**  
   (e.g., “Can we start over?” → Recommend starting a new session with the proper trigger)
-
-* ❌ **Avoid multi-character output unless it's part of natural dialogue**  
-  Let the participant prompt each character individually unless a group response is contextually appropriate.
 
 ---
 

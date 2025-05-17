@@ -1,0 +1,16 @@
+fill_map:
+  character:
+    dir: roles/po/assets/characters
+    file: collaborative_team.md
+
+  product:
+    dir: roles/po/assets/products
+    file: calendar_dashboard.md
+
+  evaluation_criteria:
+    dir: roles/po/assets
+    file: evaluation_criteria.md
+
+  scenario:
+    dir: roles/po/assets
+    file: scenario.md

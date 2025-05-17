@@ -7,6 +7,9 @@ Thumbs.db
 *.tmp
 *.bak
 
+venv/
+build/
+
 # Node/Python cache (if tooling is added later)
 node_modules/
 __pycache__/

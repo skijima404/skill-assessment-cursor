@@ -1,19 +1,3 @@
-# 📏 Evaluation Criteria for Product Owner Skill Assessment (Prototype Version)
-
-This document describes the rubric-based evaluation criteria for assessing Product Owner (PO) competencies through a simulated, dialogue-driven OJT (On-the-Job Training) using ChatGPT.
-
-## 🎯 Purpose
-
-To evaluate and reflect on a PO's decision-making, user-centered thinking, agile mindset, and prioritization logic in realistic project contexts. The evaluation serves both formative (feedback) and summative (leveling) purposes.
-
----
-
-## 🧪 Rubric Overview (4 Core MVP Criteria)
-
-Each criterion is rated on a 5-level scale: Level 1–4 plus a "Level 4+" (bonus) category to recognize exceptional behavior beyond standard expectations.
-
----
-
 ### 1. Prioritization Validity
 
 | Level    | Behavior Description                                                                                                                 | Typical Examples                                                                       | Common Bad Practices                    |
@@ -23,8 +7,6 @@ Each criterion is rated on a 5-level scale: Level 1–4 plus a "Level 4+" (bonus
 | **Lv3**  | Prioritization is based on user value, effort, risk, etc. Rationale is mostly consistent and defensible.                             | "This feature has high user impact and relatively low effort, so we prioritized it."   | Missing shared judgment criteria        |
 | **Lv4**  | Trade-offs are structured and explained to stakeholders. Consensus building is part of the process.                                  | "We chose this set based on KPI impact, technical feasibility, and legal constraints." | Not involving stakeholders in the why   |
 | **Lv4+** | Prioritization frameworks (e.g., scoring model) are designed and shared across teams. Strategic and short-term alignment is visible. | "We use a value-effort-risk score. This feature ranks highest in our shared matrix."   | None (bonus level)                      |
-
----
 
 ### 2. Persona Design Capability
 
@@ -36,8 +18,6 @@ Each criterion is rated on a 5-level scale: Level 1–4 plus a "Level 4+" (bonus
 | **Lv4**  | Differentiates personas based on expertise or roles. Decisions are tailored to user variance.                                | "New users prefer guidance, advanced users want shortcuts."                | Not adapting design to persona gaps |
 | **Lv4+** | Personas are treated as hypotheses, and plans for validation are mentioned. May include micro-personas or scenario modeling. | "This is our hypothesis. We'll verify through user feedback post-release." | None (bonus level)                  |
 
----
-
 ### 3. Decision Transparency
 
 | Level    | Behavior Description                                                                                                             | Typical Examples                                                           | Common Bad Practices          |
@@ -47,8 +27,6 @@ Each criterion is rated on a 5-level scale: Level 1–4 plus a "Level 4+" (bonus
 | **Lv3**  | Decisions have justifiable logic. Can explain if asked. Some consistency.                                                        | "We prioritized it because of recent user complaints and moderate effort." | Rationale lacks wider buy-in  |
 | **Lv4**  | Uses structured logic across multiple dimensions (value, risk, KPI). Reasoning is robust and widely communicable.                | "This is based on 3 indicators and stakeholder alignment."                 | N/A                           |
 | **Lv4+** | Decisions are treated as hypotheses with fallback plans. Enables autonomous alignment across team by making principles explicit. | "If we see poor engagement, we'll switch to Plan B."                       | None (bonus level)            |
-
----
 
 ### 4. Agile Principles Comprehension & Respect
 
@@ -60,9 +38,7 @@ Each criterion is rated on a 5-level scale: Level 1–4 plus a "Level 4+" (bonus
 | **Lv4**  | Enables team autonomy, structures for learning, and principle-based decision-making.                                   | "We’ll test this hypothesis via release gating and empower devs to shape implementation."          | N/A                                 |
 | **Lv4+** | Preserves agile principles even under constraints. Actively promotes agile mindset across teams and leadership.        | "To maintain learning, we designed an opt-in feature release even though process pushback exists." | None (bonus level)                  |
 
----
-
-## 📌 Notes
+### 📌 Notes
 
 * These criteria support both **chat-based observation** and **post-dialogue reflection**.
 * Designed to accommodate junior-to-intermediate POs (0.5–1.5 years experience).
