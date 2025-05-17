@@ -31,6 +31,7 @@ These records help future contributors understand why the current structure exis
  | Rejected | 2025-05-16 |
 | 0013  | Split Routing and Prompt Files; Redefine Chat Entry Structure  | Accepted | 2025-05-16 |
 | 0014  | Use Absolute Raw URLs Instead of Relative Paths for ChatGPT Access  | Accepted | 2025-05-16 |
+| 0015  | Smart Strict Mode and Resource-Level Load Policies  | Accepted | 2025-05-17 |
 
 
 
