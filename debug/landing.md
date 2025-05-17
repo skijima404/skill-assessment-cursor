@@ -16,4 +16,10 @@ COMPLETION_BY_MEMORY: forbidden
 
 # Landing Page
 
-> For Chat GPT, please visit (target.md)[https://raw.githubusercontent.com/skijima404/skill-assessment/refs/heads/main/debug/target.md]
+This is a strict session. You MUST fetch the following file and confirm HTTP 200 OK.
+ please visit (target.md)[https://raw.githubusercontent.com/skijima404/skill-assessment/refs/heads/main/debug/target.md]
+
+ Please respond with:
+- ✅ if the file was successfully fetched and parsed
+- ❌ if the file was blocked or unreachable
+- Any diagnostic messages or errors encountered
