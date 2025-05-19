@@ -1,85 +1,84 @@
-# 🧪 POスキルアセスメント：ChatGPT用プロンプト貼付け手順
+# 🧪 PO Skill Assessment: ChatGPT Prompt Injection Guide
 
-このフォルダには、**Product Ownerスキルアセスメント**をChatGPTで体験するためのプロンプト一式が含まれています。  
-以下の手順に従って、ChatGPTに正しくプロンプトを貼り付けてください。
+This folder contains all the prompts required to run the **Product Owner Skill Assessment** in ChatGPT.  
+Follow the steps below to correctly paste prompts into ChatGPT.
 
 ---
 
-## 📁 使用ファイル
+## 📁 Files Used
 
-以下の4つのMarkdownファイル（`.md`）を使用します：
+The following four Markdown files (`.md`) are used:
 
 01_intro-po-collaborative_team-calendar_dashboard.md  
 02_evaluation_criteria-po-collaborative_team-calendar_dashboard.md  
 03_roleplay-po-collaborative_team-calendar_dashboard.md  
 04_reflection-po-collaborative_team-calendar_dashboard.md  
 
-### ✅ 事前準備
+### ✅ Preparation
 
-1. 上記ファイルを**ローカルにダウンロード**してください。
-   - GitHubでファイルを開き、「Raw」→右クリック→「名前を付けて保存」などで保存できます。
+1. **Download** the files above to your local environment.
+   - On GitHub, click “Raw” → Right-click → “Save As” to download.
 
-2. **Webブラウザ上で開いた状態（HTML表示）では使わないでください。**
-   - ChatGPTが正しく解釈できません。
+2. **Do not use the HTML view in your web browser.**
+   - ChatGPT cannot correctly interpret the HTML version.
 
-3. 各 `.md` ファイルを **テキストエディタ（例：メモ帳、VS Codeなど）で開き、**  
-   **中身をそのままコピー＆ペースト**してください。
+3. Open each `.md` file in a **text editor (e.g., Notepad, VS Code, etc.)**  
+   and **copy and paste the contents** into ChatGPT.
 
 ---
 
-## 🌐 言語設定（日本語でプレイしたい方へ）
+## 🌐 Language Setup (For Non-English Users)
 
-ChatGPTは英語・日本語のどちらでも対応可能です。  
-**最初に以下の文を入力すると、日本語での対話に切り替わります：**
+ChatGPT supports both English and Japanese.  
+If you would like to proceed in Japanese, enter the following command first:
 
 ```plaintext
 日本語でお願いします。
 ```
 
+---
 
-⸻
+## 🧭 Prompt Injection Steps
 
-🧭 プロンプト貼付け手順
+Follow the steps below to paste prompts into ChatGPT.
 
-以下のステップでChatGPTにプロンプトを貼り付けてください。
+### ▶️ Step 1: Intro Phase
+1. Paste the contents of `01_intro-po-...md` into ChatGPT.
+2. ChatGPT may remain silent or appear idle at this stage (this is expected).
 
-▶️ ステップ1：導入フェーズ
-	1.	01_intro-po-...md の中身をChatGPTにそのまま貼り付けてください。
-	2.	ChatGPTが静かに待機状態になります（何も返さないことがあります）。
+### 🧾 Step 2: Evaluation Criteria
+- Next, paste the contents of `02_evaluation_criteria-po-...md`.
+- ChatGPT will retain this information internally for the next phases.
 
-🧾 ステップ2：評価基準の貼付け
-	•	続けて 02_evaluation_criteria-po-...md の中身を貼り付けてください。
-	•	ChatGPTはこの情報を内部的に保持し、次のフェーズで使います。
-
-🚀 ステップ3：ロールプレイ開始
-	•	以下のトリガーワードを入力してください：
+### 🚀 Step 3: Start the Roleplay
+- Enter the following trigger phrase:
 
 ```plaintext
 PO
 ```
 
-	•	ChatGPTがPOとしてのロールプレイを開始します。
+- ChatGPT will begin the roleplay session as a Product Owner.
 
-🛑 ステップ4：ロールプレイ終了
-	•	ロールプレイが終わったら、以下を入力します：
+### 🛑 Step 4: End the Roleplay
+- When the roleplay is complete, enter the following:
 
 ```plaintext
 ロールプレイを終了します。
 ```
 
-📊 ステップ5：振り返りプロンプト貼付け
-	1.	04_reflection-po-...md の中身を貼り付けてください。
-	2.	続けて以下のトリガーワードを入力します：
+### 📊 Step 5: Inject the Reflection Prompt
+1. Paste the contents of `04_reflection-po-...md`.
+2. Then enter the following trigger phrase:
 
 ```plaintext
 フィードバックをお願いします。
 ```
 
-	•	ChatGPTがMarkdown形式で評価レポートを出力します。
+- ChatGPT will generate a feedback report in Markdown format.
 
-❓ ステップ6（任意）：質問フェーズ
-	•	評価内容について質問があればそのまま入力してください。
-	•	終了する場合は以下を入力してください：
+### ❓ Step 6 (Optional): Q&A Phase
+- You may ask any questions about the feedback.
+- To end the session, enter:
 
 ```plaintext
 質問はありません。
@@ -87,23 +86,21 @@ PO
 
 ---
 
-🛠 トラブル時のチェックリスト
+## 🛠 Troubleshooting Checklist
 
-## 🛠 トラブル時のチェックリスト
-
-| 症状 | 対処法 |
-|------|--------|
-| ChatGPTが反応しない | 貼り付けたファイルの中身が途中で切れていないか確認してください。 |
-| URLだけ貼ってしまった | 必ずファイルの**中身**をコピーして貼り付けてください。GitHubのリンクやHTML表示では動作しません。 |
-| 英語で返答される | 最初に「日本語でお願いします」と入力してください。 |
-| トリガーで動作しない | `PO` や `フィードバックをお願いします。` を正確に入力してください。全角・半角の違いにも注意してください。 |
+| Issue | Solution |
+|-------|----------|
+| ChatGPT does not respond | Check if the pasted content was complete. Try again. |
+| Pasted a GitHub URL or HTML view | Always paste the **raw contents** from a text editor. |
+| Responds in English unexpectedly | Enter “日本語でお願いします。” at the start of the session. |
+| Triggers do not work | Make sure `PO` or `フィードバックをお願いします。` are typed exactly (check full-width/half-width characters). |
 
 ---
 
-## 💬 その他のアドバイス
+## 💬 Additional Tips
 
-- **スマートフォンやタブレット**ではコピペの操作や貼り付けがうまくいかないことがあります。できるだけ**パソコンで操作**してください。
-- ChatGPTのセッションが**途中で切れると記憶がリセット**されるため、できるだけ一連の操作を**途切れなく実行**してください。
-- セッションがうまく進まない場合は、最初からやり直しても問題ありません。
+- **Mobile devices** may cause issues with pasting. We recommend using a **PC**.
+- Try to perform the session **in one go**, as ChatGPT may lose memory if the session resets.
+- If something goes wrong, feel free to **restart from Step 1**.
 
 ---
