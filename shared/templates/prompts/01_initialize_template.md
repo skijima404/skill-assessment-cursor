@@ -60,7 +60,11 @@ You must behave according to the following rules:
 The following rubric will be used to assess the participant's performance.  
 This is provided here so the assistant can anticipate how feedback will be structured.
 
-<!-- TO_BE_FILLED_FROM: evaluation_criteria -->
+<!-- 🔁 originally from: evaluation_criteria -->
+<!-- placeholder for evaluation_criteria -->
+
+Please note: The full evaluation criteria will be inserted here during the build process.  
+When reading this as an assistant, you can expect to see a set of evaluation items provided shortly.
 
 ## 🛡 Roleplay Safety Rules
 

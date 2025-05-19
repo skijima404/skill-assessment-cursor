@@ -62,5 +62,13 @@ Let us know how you used it, and happy simulating! 🚀
 
 ---
 
+## 🚀 How to Build & Check Your Prompts
+
+If you'd like to generate a full set of prompt files and verify their size before using them with ChatGPT, see:
+
+👉 [`BUILD_AND_CHECK.md`](./BUILD_AND_CHECK.md)
+
+This guide includes instructions for running the build script and checking token sizes for safe usage with language models.
+
 Built with the help of AssistA, our tireless virtual facilitator.
 

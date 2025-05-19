@@ -9,8 +9,8 @@ SAFETY_PATH = Path("shared/roleplay_safety.md")
 TEMPLATE_DIR = Path("shared/templates/prompts")
 DEFAULT_TEMPLATES = [
     ("01_intro", TEMPLATE_DIR / "01_initialize_template.md"),
-    ("02_roleplay", Path("roles/po/prompts") / "02_roleplay_template.md"),
-    ("03_reflection", TEMPLATE_DIR / "03_reflection_template.md"),
+    ("03_roleplay", Path("roles/po/prompts") / "03_roleplay_template.md"),
+    ("04_reflection", TEMPLATE_DIR / "04_reflection_template.md"),
 ]
 
 # --- Functions ---
@@ -67,6 +67,14 @@ def main():
         output_path = output_dir / filename
         output_path.write_text(filled, encoding="utf-8")
         print(f"✅ Built: {output_path}")
+
+    # Copy evaluation_criteria file as 02_evaluation_criteria-...md
+    eval_path = resolve_source("evaluation_criteria", fill_map)
+    eval_filename = f"02_evaluation_criteria-{args.role}-{character_name}-{product_name}.md"
+    eval_output_path = output_dir / eval_filename
+    eval_content = eval_path.read_text(encoding="utf-8").strip()
+    eval_output_path.write_text(eval_content, encoding="utf-8")
+    print(f"✅ Built: {eval_output_path}")
 
 if __name__ == "__main__":
     main()
