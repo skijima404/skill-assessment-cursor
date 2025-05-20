@@ -33,7 +33,7 @@ ChatGPT supports both English and Japanese.
 If you would like to proceed in Japanese, enter the following command first:
 
 ```plaintext
-日本語でお願いします。
+Please use my-language (in your language)
 ```
 
 ---
@@ -51,27 +51,16 @@ Follow the steps below to paste prompts into ChatGPT.
 - ChatGPT will retain this information internally for the next phases.
 
 ### 🚀 Step 3: Start the Roleplay
-- Enter the following trigger phrase:
-
-```plaintext
-PO
-```
+- Next, paste the contents of `03_roleplay-po-...md`.
 
 - ChatGPT will begin the roleplay session as a Product Owner.
 
 ### 🛑 Step 4: End the Roleplay
-- When the roleplay is complete, enter the following:
-
-```plaintext
-ロールプレイを終了します。
-```
-
-### 📊 Step 5: Inject the Reflection Prompt
 1. Paste the contents of `04_reflection-po-...md`.
 2. Then enter the following trigger phrase:
 
 ```plaintext
-フィードバックをお願いします。
+Please give me your feedback (in your language)
 ```
 
 - ChatGPT will generate a feedback report in Markdown format.
@@ -81,7 +70,7 @@ PO
 - To end the session, enter:
 
 ```plaintext
-質問はありません。
+No more question, thank you.
 ```
 
 ---
