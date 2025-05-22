@@ -1,0 +1,20 @@
+fill_map:
+  character:
+    dir: roles/pfe/assets/characters
+    file: booth_visitors.md
+
+  pfe_overview:
+    dir: roles/pfe/assets/products
+    file: pfe_overview.md
+
+  our_pfe:
+    dir: roles/pfe/assets/products
+    file: our_pfe.md
+
+  evaluation_criteria:
+    dir: roles/pfe/assets
+    file: evaluation_criteria.md
+
+  scenario:
+    dir: roles/pfe/assets
+    file: scenario.md

@@ -9,6 +9,7 @@ Thumbs.db
 
 venv/
 build/
+local/
 
 # Node/Python cache (if tooling is added later)
 node_modules/
