@@ -1,0 +1,16 @@
+fill_map:
+  character:
+    dir: roles/ea/assets/characters
+    file: attendees.md
+
+  product:
+    dir: roles/ea/assets/products
+    file: core_system.md
+
+  evaluation_criteria:
+    dir: roles/ea/assets
+    file: evaluation_criteria.md
+
+  scenario:
+    dir: roles/ea/assets
+    file: scenario.md
