@@ -35,7 +35,7 @@
   ├─ PromptLog.md         # 失敗→再指示→改善の軽い記録（2–3 例で十分）
   └─ CompletionMatrix.md  # 要件 ↔ 実装 ↔ 証拠（URL/スクショ）のトレース表
 /reference/               # 参照用の旧資料 (読む、リンクする) ※ 編集可
-/archive/                 # 凍結済みの過去資材（編集しない）
+/archived/                # 凍結済みの過去資材（編集しない）
 README.md
 ```
 
