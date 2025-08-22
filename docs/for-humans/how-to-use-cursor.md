@@ -74,3 +74,15 @@ GenAIはなんだかんだ忘れるので、Remindする仕掛けにする。
     - Architectural Decision Records。アーキテクチャ的な意思決定と方針、その理由が書いてある
 
 ファイルやフォルダを明示的にCursorに参照させる場合は、左ペインのフォルダ一覧からチャットウインドウに Drag & Drop。
+
+### Cursor特化のフォルダ構成案
+
+docs/for-models は元々私がChatGPTを使ってた頃に作った個人ルールなので、Cursorなら .cursor/ 以下に寄せるといいと思います。
+例えば
+
+```
+.cursor/
+├── rules/           # コーディングルール
+├── context/         # プロジェクト固有の文脈
+└── prompts/         # 再利用可能プロンプト
+```
